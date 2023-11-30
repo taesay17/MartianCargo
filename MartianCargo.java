@@ -6,7 +6,7 @@ public class MartianCargo {
     private static Scanner scanner = new Scanner(System.in);
     private static Random random = new Random();
     private static ArrayList<Integer> boxLocations = new ArrayList<>();
-    private static int attempts = 0;
+    private static int attempts = 0; //for commit
 
     public static void main(String[] args) {
         initializeBoxLocations();
