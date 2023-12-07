@@ -8,7 +8,7 @@ public class MartianCargo {
     private static ArrayList<Integer> boxLocations = new ArrayList<>();
     private static int attempts = 0; //for commit
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { //Main code here
         initializeBoxLocations();
 
         while (true) {
