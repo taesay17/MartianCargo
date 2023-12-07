@@ -50,7 +50,7 @@ public class MartianCargo {
         return guessedLocations;
     }
 
-    public static int checkGuesses(ArrayList<Integer> guessedLocations) {
+    public static int checkGuesses(ArrayList<Integer> guessedLocations) { //Method
         int correctGuesses = 0;
         for (int guess : guessedLocations) {
             if (boxLocations.contains(guess)) {
