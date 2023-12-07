@@ -41,7 +41,7 @@ public class MartianCargo {
         }
     }
 
-    public static ArrayList<Integer> getUserGuesses() {
+    public static ArrayList<Integer> getUserGuesses() { //Method
         ArrayList<Integer> guessedLocations = new ArrayList<>();
         System.out.println("Enter 3 kilometer marks where you think the cargo is hidden:");
         for (int i = 0; i < 3; i++) {
