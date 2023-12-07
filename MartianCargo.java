@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import java.util.Random;
+import java.util.Random; //using randomizer to random the the locations of the hidden boxes in the future
 import java.util.Scanner;
 
 public class MartianCargo {
